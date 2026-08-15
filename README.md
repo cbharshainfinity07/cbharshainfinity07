@@ -44,23 +44,19 @@
 
 ---
 
-## GitHub Stats
+## Currently Learning
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cbharshainfinity07&show_icons=true&theme=tokyonight&hide_border=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cbharshainfinity07&layout=compact&theme=tokyonight&hide_border=true" height="170" />
-</div>
-
----
-
-## GitHub Streak
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cbharshainfinity07&theme=tokyonight&hide_border=true" />
-</div>
+- 🤖 Generative AI & Large Language Models
+- 📊 Retrieval-Augmented Generation (RAG)
+- 🧠 Machine Learning Pipelines
+- 🌐 Full Stack Web Development
 
 ---
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=cbharshainfinity07&color=7C3AED&style=flat-square" alt="Profile views" />
-</div>
+## Let's Connect
+
+I'm always open to collaborating on interesting projects! Feel free to reach out.
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/c-b-harshavardhan-97a2b8375/)
+- 🐦 [Twitter/X](https://x.com/cbhinfinity0202)
+- 📧 [Email](mailto:harshacb1975@gmail.com)
