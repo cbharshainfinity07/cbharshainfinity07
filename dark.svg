@@ -5,11 +5,6 @@
       <stop offset="50%" stop-color="#22D3EE"/>
       <stop offset="100%" stop-color="#10B981"/>
     </linearGradient>
-    <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#22D3EE"/>
-      <stop offset="50%" stop-color="#7C3AED"/>
-      <stop offset="100%" stop-color="#10B981"/>
-    </linearGradient>
     <radialGradient id="bgGlow1" cx="15%" cy="25%" r="50%">
       <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
@@ -71,29 +66,25 @@
       <g clip-path="url(#photoCircle)">
         <image xlink:href="https://raw.githubusercontent.com/cbharshainfinity07/cbharshainfinity07/main/profile.jpg" x="-150" y="-150" width="300" height="300" preserveAspectRatio="xMidYMid slice"/>
       </g>
-      <!-- Subtle border overlay -->
       <circle cx="0" cy="0" r="150" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.4"/>
     </g>
 
     <!-- Name -->
     <text x="210" y="350" text-anchor="middle" font-family="monospace" font-size="22" fill="#F8FAFC" font-weight="bold">C B Harshavardhan</text>
     
-    <!-- Username -->
-    <text x="210" y="378" text-anchor="middle" font-family="monospace" font-size="13" fill="#94A3B8">cbharshainfinity07</text>
+    <text x="210" y="378" text-anchor="middle" font-family="monospace" font-size="13" fill="#94A3B8">AIML Engineering Student</text>
 
-    <!-- Divider -->
     <line x1="60" y1="400" x2="360" y2="400" stroke="url(#accentGrad)" stroke-width="1" opacity="0.5"/>
 
     <!-- Info -->
     <g transform="translate(60, 420)">
       <text x="0" y="0" font-family="monospace" font-size="11" fill="#94A3B8">📍<tspan dx="6" fill="#F8FAFC">Chickmagaluru, India</tspan></text>
       <text x="0" y="22" font-family="monospace" font-size="11" fill="#94A3B8">🎓<tspan dx="6" fill="#F8FAFC">NxtWave / Sanjay Ghodawat Uni</tspan></text>
-      <text x="0" y="44" font-family="monospace" font-size="11" fill="#94A3B8">🎯<tspan dx="6" fill="#F8FAFC">AIML Engineering Student</tspan></text>
-      <text x="0" y="66" font-family="monospace" font-size="11" fill="#94A3B8">📧<tspan dx="6" fill="#F8FAFC">harshacb1975@gmail.com</tspan></text>
+      <text x="0" y="44" font-family="monospace" font-size="11" fill="#94A3B8">📧<tspan dx="6" fill="#F8FAFC">harshacb1975@gmail.com</tspan></text>
     </g>
   </g>
 
-  <!-- RIGHT PANEL: Terminal with ASCII -->
+  <!-- RIGHT PANEL: Terminal -->
   <g transform="translate(470,30)">
     <rect width="680" height="550" fill="#0F172A" rx="16" ry="16" opacity="0.85"/>
     <rect width="680" height="550" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" rx="16" ry="16" filter="url(#borderGlow)" opacity="0.7"/>
@@ -103,49 +94,38 @@
     <circle cx="20" cy="19" r="5.5" fill="#EF4444"/>
     <circle cx="40" cy="19" r="5.5" fill="#F59E0B"/>
     <circle cx="60" cy="19" r="5.5" fill="#10B981"/>
-    <text x="82" y="23" font-family="monospace" font-size="10" fill="#94A3B8">harshavardhan@ubuntu:~/ascii_portrait</text>
+    <text x="82" y="23" font-family="monospace" font-size="10" fill="#94A3B8">harshavardhan@ubuntu:~/about</text>
 
     <!-- Terminal Content -->
     <g transform="translate(24, 52)">
-      <!-- Command line -->
-      <text x="0" y="0" font-family="monospace" font-size="12" fill="#F8FAFC">
-        <tspan fill="#10B981">➜</tspan> <tspan fill="#22D3EE">~</tspan> <tspan fill="#7C3AED">ascii_portrait.exe</tspan>
+      <!-- Prompt -->
+      <text x="0" y="0" font-family="monospace" font-size="13" fill="#F8FAFC">
+        <tspan fill="#10B981">➜</tspan> <tspan fill="#22D3EE">~</tspan> <tspan fill="#7C3AED">cat about.md</tspan>
       </text>
 
-      <!-- ASCII Art Output -->
-      <g transform="translate(0, 20)" filter="url(#softGlow)">
-        <text x="0" y="0" font-family="monospace" font-size="9.5" fill="url(#asciiGrad)" font-weight="bold" letter-spacing="0.5">
-          <tspan x="0" dy="0">   LaLIbf3WbgbLIRILRRJTUUHCFU774GGEE1AA55   </tspan>
-          <tspan x="0" dy="12">   K6O69Y#M5YK9K6KKKK695AZ6NNOOOOOODNNDNN   </tspan>
-          <tspan x="0" dy="12">   ODNNO$60PZ$$0$0$&amp;&amp;&amp;0EF6$&amp;&amp;&amp;$$$$$6226$$   </tspan>
-          <tspan x="0" dy="12">   ODDDN&amp;YAV7K$$8WM&amp;$$066&amp;88888&amp;&amp;&amp;DACF3$&amp;   </tspan>
-          <tspan x="0" dy="12">   ND00D&amp;$SF1N&amp;M$Cro]|[xqIXKN$&amp;&amp;88&amp;NZ9D&amp;$   </tspan>
-          <tspan x="0" dy="12">   DNDND&amp;$8Z6B$2[   `    "|qiREP6D$888&amp;$$   </tspan>
-          <tspan x="0" dy="12">   DD0D0$$&amp;KKNX[  }fRfx!, `^;"+xrdUY6N$$$   </tspan>
-          <tspan x="0" dy="12">   00DN0&amp;0K$Xp]^ xfngCfru(``'``.."!xdESO$   </tspan>
-          <tspan x="0" dy="12">   DDDNDOPR2e`,"|Tx(wFv|xpq." ``.,.,:{eA9   </tspan>
-          <tspan x="0" dy="12">   NNDN9YR|7i`.[aYHhRVdnJ4Tt)     ```.+iE   </tspan>
-          <tspan x="0" dy="12">   NNN6YP653XAV^qhtcxoc}xmmz"       `,.]a   </tspan>
-          <tspan x="0" dy="12">   NON63GIu4L}+_qriLJbbaju]  `        '^m   </tspan>
-          <tspan x="0" dy="12">   OON9E7II9AaVNOncuqstwzzoVz     `   `(q   </tspan>
-          <tspan x="0" dy="12">   OONSZ$W&amp;ON%N293r?^;^=(wLBMw?+'      +j   </tspan>
-          <tspan x="0" dy="12">   O6O0#$KSNKD9ZKKEddimhapLaE8D&amp;OAs    ;h   </tspan>
-          <tspan x="0" dy="12">   6SN08$KY9N0N%8D&amp;SZZHCFH5E5Z$&amp;00#J.` ;h   </tspan>
-        </text>
+      <!-- Content -->
+      <g transform="translate(0, 30)">
+        <text x="0" y="0" font-family="monospace" font-size="18" fill="#F8FAFC" font-weight="bold">Hi 👋 I'm C B Harshavardhan</text>
+
+        <text x="0" y="40" font-family="monospace" font-size="13" fill="#22D3EE">AIML Engineering Student</text>
+        <text x="0" y="62" font-family="monospace" font-size="13" fill="#7C3AED">Python Developer</text>
+        <text x="0" y="84" font-family="monospace" font-size="13" fill="#10B981">Full Stack Developer</text>
+        <text x="0" y="106" font-family="monospace" font-size="13" fill="#22D3EE">Gen AI Enthusiast</text>
+        <text x="0" y="128" font-family="monospace" font-size="13" fill="#7C3AED">React Developer</text>
       </g>
 
-      <!-- Roles below ASCII -->
-      <g transform="translate(0, 245)">
-        <text x="0" y="0" font-family="monospace" font-size="12" fill="#94A3B8">Skills detected from neural scan:</text>
-        <text x="0" y="22" font-family="monospace" font-size="13" fill="#22D3EE">• Python Developer</text>
-        <text x="0" y="42" font-family="monospace" font-size="13" fill="#7C3AED">• Full Stack Developer</text>
-        <text x="0" y="62" font-family="monospace" font-size="13" fill="#10B981">• Gen AI Enthusiast</text>
-        <text x="0" y="82" font-family="monospace" font-size="13" fill="#22D3EE">• React Developer</text>
+      <!-- Info -->
+      <g transform="translate(0, 185)">
+        <text x="0" y="0" font-family="monospace" font-size="12" fill="#94A3B8">📍<tspan dx="4" fill="#F8FAFC">Chickmagaluru, India</tspan></text>
+        <text x="0" y="22" font-family="monospace" font-size="12" fill="#94A3B8">🎓<tspan dx="4" fill="#F8FAFC">NxtWave / Sanjay Ghodawat University</tspan></text>
+        <text x="0" y="44" font-family="monospace" font-size="12" fill="#94A3B8">🎯<tspan dx="4" fill="#F8FAFC">AI projects, RAG models, Automation</tspan></text>
+        <text x="0" y="66" font-family="monospace" font-size="12" fill="#94A3B8">🌐<tspan dx="4" fill="#F8FAFC">Coming soon</tspan></text>
+        <text x="0" y="88" font-family="monospace" font-size="12" fill="#94A3B8">📧<tspan dx="4" fill="#F8FAFC">harshacb1975@gmail.com</tspan></text>
       </g>
 
-      <!-- Tech badges -->
-      <g transform="translate(0, 360)">
-        <text x="0" y="0" font-family="monospace" font-size="12" fill="#94A3B8">Technologies:</text>
+      <!-- Skills -->
+      <g transform="translate(0, 300)">
+        <text x="0" y="0" font-family="monospace" font-size="12" fill="#94A3B8" font-weight="bold">Skills:</text>
         <g transform="translate(0, 18)">
           <rect x="0" y="0" rx="10" ry="10" width="58" height="22" fill="#1E293B" stroke="url(#accentGrad)" stroke-width="0.5" opacity="0.9"/>
           <text x="8" y="14" font-family="monospace" font-size="9" fill="#F8FAFC">Python</text>
@@ -173,16 +153,33 @@
         </g>
       </g>
 
-      <!-- Social links in terminal -->
+      <!-- Social -->
       <g transform="translate(0, 430)">
-        <text x="0" y="0" font-family="monospace" font-size="12" fill="#94A3B8">Social:</text>
-        <text x="0" y="20" font-family="monospace" font-size="11" fill="#22D3EE"><tspan fill="#10B981">➜</tspan>  <tspan fill="#F8FAFC">https://github.com/cbharshainfinity07</tspan></text>
-        <text x="0" y="38" font-family="monospace" font-size="11" fill="#22D3EE"><tspan fill="#10B981">➜</tspan>  <tspan fill="#F8FAFC">https://linkedin.com/in/c-b-harshavardhan-97a2b8375</tspan></text>
-        <text x="0" y="56" font-family="monospace" font-size="11" fill="#22D3EE"><tspan fill="#10B981">➜</tspan>  <tspan fill="#F8FAFC">https://x.com/cbhinfinity0202</tspan></text>
+        <text x="0" y="0" font-family="monospace" font-size="12" fill="#94A3B8" font-weight="bold">Connect:</text>
+        <g transform="translate(0, 18)">
+          <rect x="0" y="0" width="26" height="26" rx="6" ry="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <path d="M13 3C8 3 4 7 4 12C4 16 6.5 19.5 10 20.5C10.5 20.6 10.7 20.3 10.7 20V18.5C8.8 18.9 8.1 17.8 7.8 17.2C7.7 17 7.5 16.6 7.2 16.4C7 16.3 6.8 16.3 6.8 16.2C6.8 16 7 16 7.2 16C7.7 16 8.2 16.6 8.4 16.9C8.9 17.6 9.6 17.8 10 17.7C10.1 17.3 10.3 16.9 10.5 16.7C8.7 16.5 7 15.8 7 13C7 12.1 7.3 11.3 7.8 10.6C7.7 10.3 7.4 9.4 7.9 8.2C7.9 8.2 8.6 8 10.1 9.1C10.9 8.9 11.7 8.8 12.5 8.8C13.3 8.8 14.1 8.9 14.9 9.1C16.4 8 17.1 8.2 17.1 8.2C17.6 9.4 17.3 10.3 17.2 10.6C17.7 11.3 18 12.1 18 13C18 15.8 16.3 16.5 14.5 16.7C14.8 17 15 17.5 15 18.2V20C15 20.3 15.2 20.6 15.7 20.5C19.2 19.5 21.5 16 21.5 12C21.5 7 17.5 3 13 3Z" fill="#F8FAFC" transform="translate(3,3) scale(0.77)"/>
+          <text x="32" y="18" font-family="monospace" font-size="9" fill="#F8FAFC">github</text>
+        </g>
+        <g transform="translate(100, 18)">
+          <rect x="0" y="0" width="26" height="26" rx="6" ry="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <rect x="7" y="11" width="2.5" height="8" fill="#F8FAFC"/>
+          <circle cx="8.25" cy="8.5" r="1.4" fill="#F8FAFC"/>
+          <path d="M12.5 11L12.5 19M12.5 11C14.5 11 15.5 12.5 15.5 14L15.5 19M15.5 14C15.5 12 17 11 19 11C21 11 21.5 12.5 21.5 14L21.5 19" stroke="#F8FAFC" stroke-width="2.2" stroke-linecap="round" fill="none" transform="translate(1,0)"/>
+          <text x="32" y="18" font-family="monospace" font-size="9" fill="#F8FAFC">linkedin</text>
+        </g>
+        <g transform="translate(200, 18)">
+          <rect x="0" y="0" width="26" height="26" rx="6" ry="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <path d="M18.2 7.5H20L15.4 12.8L20.9 20H16.6L13.3 15.4L9.4 20H7.5L12.4 14.4L7.1 7.5H11.5L14.5 11.7L18.2 7.5ZM17.5 18.7H18.9L10.5 8.7H9L17.5 18.7Z" fill="#F8FAFC" transform="translate(2.5,2) scale(0.85)"/>
+          <text x="32" y="18" font-family="monospace" font-size="9" fill="#F8FAFC">twitter</text>
+        </g>
+        <g transform="translate(300, 18)">
+          <rect x="0" y="0" width="26" height="26" rx="6" ry="6" fill="#1E293B" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <path d="M6 13H10M10 13V17M10 13L6 17M14 7H18M18 7V11M18 7L14 11M6 7H10M10 7V11M10 7L6 11M14 13H18M18 13V17M18 13L14 17" stroke="#F8FAFC" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+          <text x="32" y="18" font-family="monospace" font-size="9" fill="#F8FAFC">portfolio</text>
+        </g>
+        <rect x="400" y="22" width="6" height="12" fill="#22D3EE" filter="url(#softGlow)"/>
       </g>
-
-      <!-- Cursor -->
-      <rect x="0" y="505" width="6" height="12" fill="#22D3EE" filter="url(#softGlow)"/>
     </g>
   </g>
 
